@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(42, 44, 46);
+}
+h1{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.video{
+    margin-left: 35%;
+}
+p{
+    text-align: center;
+    color:rgb(255, 255, 255);
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+img{
+    text-align: center;
+    margin-left: 49%;
+}

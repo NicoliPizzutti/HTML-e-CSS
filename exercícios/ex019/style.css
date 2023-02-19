@@ -1,0 +1,20 @@
+body{
+    background-color: #BFE6D4;
+    font-family: Georgia, 'Times New Roman', Times, serif, 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1{
+    color: #00522C;
+}
+h1#principal{ 
+    /* 
+    posso deixar somente o PRINCIPAL sem o H1, assim qualquer elemento que tiver identificação PRINCIPAL fará parte como uma class  
+    em css #=id em html (só pode um elemento)
+    em css .=class em html (pode vários elementos) 
+    */ 
+    text-align: center;
+    color: #BFE6D4;
+    background-color: #009952;
+}
+h2{
+    color:#009952;
+}

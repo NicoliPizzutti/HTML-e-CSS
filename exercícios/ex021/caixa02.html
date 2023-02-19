@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Groping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: gray;
+            margin: 0px;
+        }
+        header{
+            background-color: whitesmoke;
+            padding: 5px;
+            margin: 10px;
+        }
+        nav{
+            background-color: rgb(68, 67, 67);
+            padding: 3px;
+            box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.473); /* horizontal, vertical, espalhamento e cor */
+        }
+        nav > a{ /* a pertence, é filho, está dentro de nav */
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            margin-right: 60px;
+            margin-left: 60px;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+            color: red;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 15px 1px;
+        }
+        article{
+            background-color: rgb(179, 248, 225);
+            padding: 5px;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            padding: 5px;
+            text-align: center;
+        }
+        footer > p{
+            margin: 0px;
+        }
+        div#bola{
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50px;
+        }
+    </style>
+</head>
+<body>
+    <header> <!--cabeçalho-->
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main> <!--conteúdo principal-->
+        <section id="assuntos">
+            Esporte e Política
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Artigo sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores placeat aspernatur voluptatibus maxime, incidunt ducimus fuga assumenda labore illo nam doloribus ex nesciunt quaerat voluptatem vel laborum repellat unde tempore?</p>
+                <p>Escrito por José da Silva</p>
+            </article>
+        </section>
+    </main>
+    <footer> <!--rodapé-->
+        <p>Desenvolvido pelo CursoEmVideo</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
