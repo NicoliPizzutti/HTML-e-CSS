@@ -1,0 +1,15 @@
+
+body{
+    height: 96vh;
+}
+header{
+    background-color: black;
+    color: white;
+    height: 100px;
+    text-align: center;
+    margin-top: 0px;
+}
+main>p{
+    text-align: left;
+    width: 200px;
+}
